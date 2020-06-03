@@ -1,0 +1,12 @@
+modules:
+  'jira:issuePanel':
+    - key: test-app-hello-world-panel
+      function: main
+      title: test-app
+      description: A hello world issue panel.
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/9a736af1-3f9a-4a3d-8cb6-7a7d5e4c72ea'
+  name: test-app
